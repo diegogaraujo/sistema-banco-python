@@ -48,8 +48,10 @@ while True:
 
     #extrato
     elif opcao == "3":
+        print("============ Extrato =============")
         print(extrato)
         print(f"Total em conta: R$ {saldo:.2f}")
+        print("===================================")
         
     #sair
     elif opcao == "4":
